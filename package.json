@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "now-deploy": "now -e NODE_ENV=production --token $NOW_TOKEN --npm",
     "heroku-postbuild": "npm run build",
     "build": "next build",
     "start": "next",
