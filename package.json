@@ -7,7 +7,7 @@
     "heroku-postbuild": "npm run build",
     "build": "next build",
     "start": "next",
-    "server": "next start",
+    "server": "next start --port $PORT",
     "test": "NODE_ENV=test jest"
   },
   "author": "",
