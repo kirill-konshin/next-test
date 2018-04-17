@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "heroku-postbuild": "npm run build",
+    "build": "next build",
     "start": "next",
+    "server": "next start",
     "test": "NODE_ENV=test jest"
   },
   "author": "",
